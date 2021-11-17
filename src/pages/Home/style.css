@@ -1,0 +1,94 @@
+.logo  {
+  margin: 0 auto;
+  height: 80px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(23, 78, 9);
+ 
+}
+.logo > img {
+  height: 80px;
+  margin-left: 40px;
+  padding: 10px;
+}
+
+.main {
+  background-color: rgb(48, 43, 43);
+  height: 110vh;
+  display: flex;
+  width: 1200px;
+  margin: 10px;
+  margin: 0 auto;
+}
+
+.feed {
+  background-color: yellow;
+  width: 100%;
+  padding: 20px;
+}
+
+.toolbar{
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px;
+  background-color: aqua;
+}
+
+.coluna{
+  background-color: rgb(172, 52, 252);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.navbar {
+  width: 350px;
+  background-color: red;
+  padding: 24px;
+}
+
+.nav1 {
+  background-color: pink;
+  padding: 10px;
+}
+
+.nav1 > button {
+  padding: 10px 20px;
+  display: flex;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: red;
+}
+
+.nav2{
+  background-color: aquamarine;
+}
+
+.toolba-contained {
+  background-color: rgb(252, 242, 242);
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.toolbar-nav {
+  display: flex;
+  padding: 2px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toolbar-nav > span {
+  font-size: 12px;
+}
+
+.toolbar-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

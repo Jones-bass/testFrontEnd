@@ -12,6 +12,7 @@ function Home() {
       <div className="main">
         <Header />
         <NavBar />
+        
         </div>   
         </div>  
   );

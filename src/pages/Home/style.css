@@ -14,11 +14,41 @@
 
 .main {
   background-color: rgb(48, 43, 43);
-  height: 110vh;
+  height: auto;
   display: flex;
   width: 1200px;
   margin: 10px;
   margin: 0 auto;
+}
+
+h1, h2, h3, p{
+  font-family:'Open Sans'; 
+}
+
+h1 {
+  font-size: 50px;
+
+}
+
+h2 {
+  margin: 8px;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+p {
+  font-size: 14px;
+  margin: 10px;
+}
+
+.span-border {
+  background-color: blue;
+  margin: 0;
+}
+
+.coluna > img{
+  height: 100px;
+  margin-bottom: -10px;
 }
 
 .feed {
@@ -39,12 +69,17 @@
 }
 
 .coluna{
+  display: flex;
   background-color: rgb(172, 52, 252);
   border-radius: 5px;
   margin-bottom: 10px;
   align-items: center;
-  justify-content: space-between;
+  line-height: 1;
 
+}
+
+.coluna-icon {
+ margin-left: 40px;
 }
 
 .navbar {
@@ -55,10 +90,12 @@
 
 .nav1 {
   background-color: pink;
+  line-height: 1.5;
   padding: 10px;
 }
 
 .nav1 > button {
+  margin-top: 15px;
   padding: 10px 20px;
   display: flex;
   border-radius: 5px;
@@ -71,9 +108,16 @@
 }
 
 .toolba-contained {
-  background-color: rgb(252, 242, 242);
+  background-color: rgb(224, 127, 127);
   margin-bottom: 5px;
   border-radius: 5px;
+}
+
+.icons {
+  display: flex;
+  height: 20px;
+  gap: 8px;
+  margin-top: 3px;
 }
 
 .toolbar-nav {
@@ -85,10 +129,11 @@
 
 .toolbar-nav > span {
   font-size: 12px;
+  margin-left: 7px;
 }
 
 .toolbar-img {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  
+
 }

@@ -3,7 +3,9 @@
   height: 80px;
   margin: 5px;
   border-radius: 5px;
-  background-color: rgb(23, 78, 9);
+  background-color: #ffff;
+  border-style: outset;
+
  
 }
 .logo > img {
@@ -13,7 +15,6 @@
 }
 
 .main {
-  background-color: rgb(48, 43, 43);
   height: auto;
   display: flex;
   width: 1200px;
@@ -36,8 +37,14 @@ h2 {
   margin-left: 10px;
 }
 
-p {
+h3 {
+  margin: 0;
   font-size: 14px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 12px;
   margin: 10px;
 }
 
@@ -47,12 +54,12 @@ p {
 }
 
 .coluna > img{
-  height: 100px;
-  margin-bottom: -10px;
+  height: 70px;
+  margin-left: 10px;
 }
 
 .feed {
-  background-color: yellow;
+  background-color: #ffff;
   width: 100%;
   padding: 20px;
 }
@@ -65,31 +72,35 @@ p {
   justify-content: space-between;
   height: 60px;
   padding: 20px;
-  background-color: aqua;
+  background-color: #ffff;
 }
 
+.toolbar-logo {
+  height: 60px;
+  margin-left: -20px;
+}
 .coluna{
   display: flex;
-  background-color: rgb(172, 52, 252);
-  border-radius: 5px;
+  border-style: outset;
   margin-bottom: 10px;
   align-items: center;
-  line-height: 1;
+  line-height: 1.2;
 
 }
 
 .coluna-icon {
- margin-left: 40px;
+ margin-left: 170px;
 }
 
 .navbar {
   width: 350px;
-  background-color: red;
+  color: #8B857C;
   padding: 24px;
 }
 
 .nav1 {
-  background-color: pink;
+  border-style: solid;
+  background-color: #FFF2DF;
   line-height: 1.5;
   padding: 10px;
 }
@@ -99,41 +110,50 @@ p {
   padding: 10px 20px;
   display: flex;
   border-radius: 5px;
+  color: #8B857C;
   cursor: pointer;
-  background-color: red;
+  background-color: #FFF2DF;
 }
 
-.nav2{
-  background-color: aquamarine;
+
+.nav-container{
+  background-color: #FDFDFD;
+  color: #707070;
+  border-style:outset;
+  margin-top: 20px;
 }
+
+.nav2 {
+  padding: 10px;
+}
+
 
 .toolba-contained {
-  background-color: rgb(224, 127, 127);
+  background-color: #E8F1F6;
   margin-bottom: 5px;
-  border-radius: 5px;
 }
 
 .icons {
   display: flex;
-  height: 20px;
-  gap: 8px;
-  margin-top: 3px;
+  height: 15px;
+  gap: 3px;
+  margin-right: 5px;
 }
 
 .toolbar-nav {
   display: flex;
-  padding: 2px;
   align-items: center;
   justify-content: space-between;
+  padding: 2px;
 }
 
 .toolbar-nav > span {
   font-size: 12px;
   margin-left: 7px;
+  color: #707070;
 }
 
 .toolbar-img {
   display: flex;
-  
-
+  height: 60px;
 }

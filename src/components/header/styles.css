@@ -1,0 +1,47 @@
+
+
+.feed {
+  background-color: blueviolet;
+  width: 100%;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+
+.toolbar{
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px;
+  background-color: #ffff;
+}
+
+.toolbar-logo {
+  height: 60px;
+  margin-left: -20px;
+}
+
+.coluna{
+  display: flex;
+  border-style: outset;
+  margin-bottom: 10px;
+  align-items: center;
+  line-height: 1.2;
+}
+
+.coluna > img{
+  height: 70px;
+  margin-left: 10px;
+}
+
+.coluna-icon {
+ margin-left: 140px;
+}
+
+.span-border {
+  background-color: blue;
+  margin: 0;
+}

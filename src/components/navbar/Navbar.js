@@ -1,8 +1,11 @@
 import React from "react";
+import './styles.css';
+
 
 function NavBar() {
   return (
-    <div className="navbar">
+   <div className="body">
+   <div className="navbar">
       <div className="nav1">
         <h3>Endomarketing</h3>
         <span>
@@ -71,6 +74,7 @@ function NavBar() {
           </div>
         </div>
       </div>
+    </div>
     </div>
     </div>
     </div>

@@ -1,6 +1,6 @@
 
 
-.feed {
+.contained-feed {
   background-color: blueviolet;
   width: 100%;
   padding: 20px;
@@ -8,7 +8,7 @@
 }
 
 
-.toolbar{
+.contained-endomarketing{
   margin-bottom: 10px;
   border-radius: 5px;
   display: flex;
@@ -16,15 +16,15 @@
   justify-content: space-between;
   height: 60px;
   padding: 20px;
-  background-color: #ffff;
+  background-color: rgb(26, 23, 23);
 }
 
-.toolbar-logo {
+.endomarketing-logo {
   height: 60px;
   margin-left: -20px;
 }
 
-.coluna{
+.contained-column{
   display: flex;
   border-style: outset;
   margin-bottom: 10px;
@@ -32,12 +32,12 @@
   line-height: 1.2;
 }
 
-.coluna > img{
+.contained-column > img{
   height: 70px;
   margin-left: 10px;
 }
 
-.coluna-icon {
+.column-icon {
  margin-left: 140px;
 }
 

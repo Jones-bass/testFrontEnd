@@ -4,9 +4,9 @@ import './styles.css';
 
 function NavBar() {
   return (
-   <div className="body">
-   <div className="navbar">
-      <div className="nav1">
+   <div className="contained-body">
+   <div className="contained-information-context">
+      <div className="information-context">
         <h3>Endomarketing</h3>
         <span>
           Endomarketing está relacionado à aações de treinamento ou qualificação
@@ -21,20 +21,20 @@ function NavBar() {
 
 
       <div>
-        <div className="nav-container">
-          <div className="nav2">
+        <div className="contained-information-bloc">
+          <div className="information-bloc">
           <h3>Quadro de Gestão a Visita</h3>
        
 
-        <div className="toolba-contained">
-          <div className="toolbar-nav">
+        <div className="contained-demonstrative">
+          <div className="demonstrative-name">
             <span>Demonstrativo Comercial</span>
-            <div className="icons">
+            <div className="icons-demonstrative">
             <img src="/images/glob.svg" alt="0" />
               <img src="/images/grupo.svg" alt="1" />
             </div>
           </div>
-          <div className="toolbar-img">
+          <div className="img-demonstrative">
             <img src="/images/01.png" alt="01" />
             <img src="/images/02.png" alt="02" />
             <img src="/images/03.png" alt="03" />
@@ -42,15 +42,15 @@ function NavBar() {
           </div>
         </div>
 
-        <div className="toolba-contained">
-          <div className="toolbar-nav">
+        <div className="contained-demonstrative">
+          <div className="demonstrative-name">
             <span>Demonstrativo Comercial</span>
-            <div className="icons">
+            <div className="icons-demonstrative">
               <img src="/images/glob.svg" alt="0" />
               <img src="/images/grupo.svg" alt="1" />
             </div>
           </div>
-          <div className="toolbar-img">
+          <div className="img-demonstrative">
             <img src="/images/01.png" alt="01" />
             <img src="/images/02.png" alt="02" />
             <img src="/images/03.png" alt="03" />
@@ -58,15 +58,15 @@ function NavBar() {
           </div>
         </div>
 
-        <div className="toolba-contained">
-          <div className="toolbar-nav">
+        <div className="contained-demonstrative">
+          <div className="demonstrative-name">
             <span>Demonstrativo Comercial</span>
-            <div className="icons">
+            <div className="icons-demonstrative">
             <img src="/images/glob.svg" alt="0" />
               <img src="/images/grupo.svg" alt="1" />
             </div>
           </div>
-          <div className="toolbar-img">
+          <div className="img-demonstrative">
             <img src="/images/01.png" alt="01" />
             <img src="/images/02.png" alt="02" />
             <img src="/images/03.png" alt="03" />

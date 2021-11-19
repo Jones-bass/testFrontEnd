@@ -14,13 +14,16 @@
   align-items: center;
   justify-content: space-between;
   height: 60px;
-  padding: 20px;
-
 }
 
 .endomarketing-logo {
   height: 60px;
-  margin-left: -20px;
+  
+}
+
+.button-endomarketing {
+  align-items: center;
+  margin-left: 210px;
 }
 
 .contained-column{

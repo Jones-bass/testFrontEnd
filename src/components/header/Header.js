@@ -1,4 +1,6 @@
 import React from "react";
+import ButtonAdd from "../Button/ButtonAdd";
+
 import "./styles.css";
 
 function Header() {
@@ -9,7 +11,9 @@ function Header() {
           <div>
             <img className="endomarketing-logo" src="/images/endo.svg" alt="01" />
           </div>
-          <div className="button-endomarketing"></div>
+          <div className="button-endomarketing">
+            <ButtonAdd />
+          </div>
         </div>
 
         <div className="contained-column">

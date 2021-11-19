@@ -1,8 +1,18 @@
 import React from "react";
+import Button from '@mui/material/Button';
+import { ThemeProvider, createMuiTheme } from '@material-ui/core'
 import './styles.css';
 
-
+ 
 function NavBar() {
+  const theme = createMuiTheme({
+    palette: {
+      primary: {
+        main: '#FFF2DF', 
+      },
+    },
+  });
+
   return (
    <div className="contained-body">
    <div className="contained-information-context">
@@ -14,7 +24,9 @@ function NavBar() {
           Marketing interno, devido ao nome, é usualmente confudido com
           Endomarketing mesmo sendo conceitos diferentes.
         </span>
-        <button>DISPENSAR</button>
+        <ThemeProvider theme={theme}>
+        <Button variant="contained" color='primary' > DISPENSAR</Button>
+        </ThemeProvider>
       </div>
 
 

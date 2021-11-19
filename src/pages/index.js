@@ -1,5 +1,5 @@
 import React from "react";
-import MainColumn from "../components/header/MainColumn";
+import Header from "../components/header/Header";
 import NavBar from "../components/navbar/Navbar";
 
 import '../pages/global.css';
@@ -11,7 +11,7 @@ function Home() {
       <img src="/images/logo.png" alt="logo" />
    
       <div className="main">
-        <MainColumn />
+        <Header />
 
         <NavBar />
         </div>   

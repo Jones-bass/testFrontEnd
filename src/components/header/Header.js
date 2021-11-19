@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-function MainColumn() {
+function Header() {
   return (
     <div className="contained-feed">
       <header>
@@ -118,4 +118,4 @@ function MainColumn() {
   );
 }
 
-export default MainColumn;
+export default Header;

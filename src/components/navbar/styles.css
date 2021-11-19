@@ -1,14 +1,10 @@
-
-.contained-body {
-  background-color: yellow;
-}
-
 .contained-information-context {
   width: 350px;
   padding: 24px;
 }
 
 .information-context {
+  border: #DBD3C8;
   border-style: solid;
   background-color: #FFF2DF;
   line-height: 1.5;
@@ -28,13 +24,12 @@
 
 .contained-information-bloc {
   color: #707070;
-  border-style:outset;
   margin-top: 20px;
 }
 
 .information-bloc {
+  box-shadow: 0px 4px 7px 1px #E5E5E5;
   padding: 10px;
-  background-color: #E5E5E5;
 }
 
 

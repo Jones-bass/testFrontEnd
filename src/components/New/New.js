@@ -6,7 +6,7 @@ function New() {
     <div>
       <div className="contained-information-bloc">
         <div className="information-bloc">
-          <h3>Quadro de Gestão a Visita</h3>
+          <h1>Quadro de Gestão a Visita</h1>
 
           <div className="contained-demonstrative">
             <div className="demonstrative-name">

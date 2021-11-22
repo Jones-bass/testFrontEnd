@@ -1,0 +1,23 @@
+.contained-information-context {
+  width: 350px;
+  padding: 24px;
+}
+
+.information-context {
+  border: #DBD3C8;
+  border-style: solid;
+  background-color: #FFF2DF;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+.information-context > button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  display: flex;
+  border-radius: 5px;
+  color: #8B857C;
+  cursor: pointer;
+  background-color: #FFF2DF;
+}
+

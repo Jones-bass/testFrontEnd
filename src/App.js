@@ -1,9 +1,13 @@
-import React from 'react';
-import Home from './page';
+import React from "react";
+import Home from "./page";
+import PagePost from "./pagePost/PagePost";
 
 function App() {
-  return(
-    <Home />
+  return (
+    <>
+      <Home />
+      <PagePost />
+    </>
   );
 }
 

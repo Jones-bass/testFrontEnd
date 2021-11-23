@@ -66,31 +66,14 @@ h1, h2, h3, p{
 }
 
 
-.contained-column {
-  display: grid;
-  grid-template-columns: 1fr;
-  flex-wrap: wrap;
-  justify-items: start;
-}
-
-.contained-column > img {
-  margin-top: -40px;
-  position: absolute;
-  height: 50px;
-}
-
-.column-icon {
-  display: grid;
-  margin-left: 500px;
-  position: absolute;
- }
-
 .contained-information-context {
   display: grid;
   grid-template-columns: 1fr 1fr;
   flex-wrap: wrap;
   justify-items: start;
-  }
+
+  margin-top: 600px;
+}
 
 .information-context {
   margin-top: 20px;
@@ -124,17 +107,6 @@ h1, h2, h3, p{
   text-align: center;
   width: 480px;
 }
-
-.contained-column > img {
-  height: 0;
-}
-
-.column-icon {
-  display: grid;
-  margin-left: 400px;
-  position: absolute;
-  height: 40px;
- }
 
 .contained-information-context {
   display: grid;

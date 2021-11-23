@@ -1,6 +1,8 @@
 import React from "react";
-import ButtonAdd from "../Button/ButtonAdd";
-import Post from "../Post/Post";
+import Button from "@mui/material/Button";
+import { ArrowDropDown } from "@mui/icons-material";
+import { Add } from "@mui/icons-material";
+import Stack from "@mui/material/Stack";
 
 import "./styles.css";
 
@@ -17,11 +19,16 @@ function Header() {
             />
           </div>
           <div className="button-endomarketing">
-            <ButtonAdd />
+            <Stack direction="row" spacing={2}>
+              <Button variant="outlined" endIcon={<ArrowDropDown />}>
+                TIPO
+              </Button>
+              <Button variant="contained" endIcon={<Add />}>
+                CRIAR
+              </Button>
+            </Stack>
           </div>
         </div>
-
-        <Post />
       </header>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "@mui/material/Button";
-import New from "../New/New";
+import ContainedBlock from "../ContainedBlock/ContainedBlock";
 
 import { ThemeProvider, createTheme } from "@material-ui/core";
 import "./styles.css";
@@ -30,8 +30,9 @@ function NavBar() {
               DISPENSAR
             </Button>
           </ThemeProvider>
+          
         </div>
-        <New />
+        <ContainedBlock />
       </div>
     </div>
   );

@@ -6,6 +6,7 @@ import "./global.css";
 
 function Home() {
   return (
+    
     <header className="logo">
       <img src="/images/logo.png" alt="logo" />
 

@@ -15,7 +15,7 @@ const theme = createTheme({
 
 function NavBar() {
   return (
-    <div className="contained-body">
+  
       <div className="contained-information-context">
         <div className="information-context">
           <h3>Endomarketing</h3>
@@ -34,7 +34,6 @@ function NavBar() {
         </div>
         <ContainedBlock />
       </div>
-    </div>
   );
 }
 

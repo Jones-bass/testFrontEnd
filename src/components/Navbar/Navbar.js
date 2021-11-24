@@ -10,6 +10,9 @@ const theme = createTheme({
     primary: {
       main: "#FFF2DF",
     },
+    typography: {
+      fontFamily: 'Open Sans',
+    },    
   },
 });
 
@@ -20,13 +23,13 @@ function NavBar() {
         <div className="information-context">
           <h3>Endomarketing</h3>
           <span className="span-context">
-            Endomarketing está relacionado à aações de treinamento ou
+            Endomarketing está relacionado à ações de treinamento ou
             qualificação dos colaboradores da empresa visando um melhor serviço
             para o cliente. Marketing interno, devido ao nome, é usualmente
             confudido com Endomarketing mesmo sendo conceitos diferentes.
           </span>
           <ThemeProvider theme={theme}>
-            <Button variant="contained" color="primary">
+            <Button sx={{ fontFamily: 'Open Sans'}} variant="contained" color="primary">
               DISPENSAR
             </Button>
           </ThemeProvider>

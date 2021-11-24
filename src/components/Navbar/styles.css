@@ -37,3 +37,49 @@ h3 {
   background-color: #FFF2DF;
 }
 
+
+@media (max-width: 1000px) {
+.contained-information-context {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  flex-wrap: wrap;
+  justify-items: start;
+  margin-top: 600px;
+}
+
+.information-context {
+  margin-top: 20px;
+  width: 260px;
+  height: 350px;
+  border: none; 
+}
+
+.information-context > button {
+  margin-left: 75px;
+  padding: 5px 10px ;
+  align-items: center;
+  } 
+}
+
+@media (max-width: 600px) {
+.contained-information-context {
+  display: grid;
+  grid-template-columns: 1fr;
+  flex-wrap: wrap;
+  justify-items: center;
+  margin-left: 65px;
+}
+
+.information-context {
+  padding: 20px;
+  margin-top: 20px;
+  width: 300px;
+  height: 345px;
+  border-style: ridge;
+}
+
+.information-context > button {
+  padding: 5px 10px ;
+  align-items: center;
+  } 
+}

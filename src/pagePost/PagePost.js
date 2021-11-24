@@ -15,7 +15,7 @@ const PagePost = () => {
   return (
     <div>
       {posts.map((post) => (
-        <Post post={post} />
+        <Post key={post.one} post={post} />
       ))}
     </div>
   );

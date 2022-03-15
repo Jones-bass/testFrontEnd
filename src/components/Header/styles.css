@@ -1,0 +1,49 @@
+
+
+.contained-feed {
+  width: 100%;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+
+.contained-endomarketing{
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.endomarketing-logo {
+  height: 60px;
+  
+}
+
+.button-endomarketing {
+  align-items: center;
+  margin-left: 210px;
+}
+
+.contained-column{
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  line-height: 1.2;
+  box-shadow: 0px 4px 7px 1px #E5E5E5;
+}
+
+.contained-column > img{
+  height: 70px;
+  margin-left: 10px;
+}
+
+.column-icon {
+ margin-left: 140px;
+}
+
+.span-border {
+  background-color: blue;
+  margin: 0;
+}

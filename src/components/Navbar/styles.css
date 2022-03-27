@@ -19,9 +19,9 @@ h3 {
 }
 
 .information-context {
-  border: #DBD3C8;
+  border: var(--cinza);
   border-style: solid;
-  background-color: #FFF2DF;
+  background-color: var(--bege);
   line-height: 1.5;
   padding: 10px;
 }
@@ -32,8 +32,8 @@ h3 {
   padding: 10px 20px;
   display: flex;
   border-radius: 5px;
-  color: #8B857C;
+  color: var(--cinzaescuro);
   cursor: pointer;
-  background-color: #FFF2DF;
+  background-color: var(--bege);
 }
 

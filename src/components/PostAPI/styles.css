@@ -16,7 +16,7 @@ p {
   margin-bottom: 10px;
   align-items: center;
   line-height: 1.2;
-  box-shadow: 0px 4px 7px 1px #E5E5E5;
+  box-shadow: 0px 4px 7px 1px var(--branco);
 }
 
 .contained-column > img{
@@ -31,6 +31,6 @@ margin-right: 20px;
 }
 
 .span-border {
-  background-color: blue;
+  background-color: var(--azul);
   margin: 0;
 }

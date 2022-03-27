@@ -1,5 +1,12 @@
 
 /*************Global*/
+:root {
+  --cinza: #DBD3C8;
+  --cinzaescuro: #8B857C;
+  --branco: #E5E5E5;
+  --bege: #FFF2DF;
+  --azul: #03a4fa;
+}
 
 h1, h2, h3, p{
   font-family:'Open Sans'; 
@@ -9,7 +16,7 @@ h1, h2, h3, p{
   height: 80px;
   margin: 5px;
   border-radius: 5px;
-  box-shadow: 0px 4px 7px 1px #E5E5E5;
+  box-shadow: 0px 4px 7px 1px var(--branco);
 }
 
 .logo > img {
